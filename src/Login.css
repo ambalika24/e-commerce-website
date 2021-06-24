@@ -1,0 +1,70 @@
+body{
+    background-image: url('https://img.freepik.com/free-vector/clean-medical-background_53876-97927.jpg?size=626&ext=jpg');
+}
+.login{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.login__logo{
+ margin-top: 20px;
+ object-fit: contain;
+ width:300px;
+ margin-right: auto;
+ margin-left: auto;
+ 
+
+}
+.login__container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+.login__container > h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+.login__container > form > h5{
+    margin-bottom: 5px;
+}
+.login__container > form > input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border-radius: 4px;
+}
+.login__container > p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.login__signInButton {
+    background:#d9d9d9;
+    border-radius: 6px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #737373;
+    color: #111;
+
+}
+.login__registerButton{
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+}
